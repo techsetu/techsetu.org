@@ -5,6 +5,11 @@
 
 /* Add any custom CSS here */
 
-body {
-  font-family: montserrat, sans-serif;
+.banner {
+  min-height: 75vh;
+
+  .banner-image {
+    background-image: url("~banner.jpg");
+    min-height: 600px;
+  }
 }
